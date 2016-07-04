@@ -43,7 +43,7 @@ public class PixabayParser {
             JSONArray imageDataArray = responseData.getJSONArray("hits");
             for (int i = 0; i < imageDataArray.length(); i++) {
                 JSONObject imageData = imageDataArray.getJSONObject(i);
-                mImageUrls.add(imageData.getString("webformatURL"));
+                mImageUrls.add(imageData.getString("pageURL"));
                 mPreviewImageUrls.add(imageData.getString("previewURL"));
                 if (isMore)
                     mAppendPreviewImageUrls.add(imageData.getString("previewURL"));

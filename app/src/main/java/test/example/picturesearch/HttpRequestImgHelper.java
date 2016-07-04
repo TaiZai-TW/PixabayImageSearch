@@ -49,6 +49,7 @@ public class HttpRequestImgHelper extends AsyncTask<Void, Void, List<Drawable>> 
         mProgressDialog = new ProgressDialog(mContext);
         mProgressDialog.setTitle("now parsing");
         mProgressDialog.show();
+        mProgressDialog.setCancelable(false);
     }
 
     @Override

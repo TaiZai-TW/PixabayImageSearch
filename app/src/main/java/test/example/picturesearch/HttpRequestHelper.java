@@ -44,6 +44,7 @@ public class HttpRequestHelper extends AsyncTask<Void, Void, String> {
         mProgressDialog = new ProgressDialog(mContext);
         mProgressDialog.setTitle("now parsing");
         mProgressDialog.show();
+        mProgressDialog.setCancelable(false);
     }
 
     @Override
