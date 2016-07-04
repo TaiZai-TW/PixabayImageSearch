@@ -6,3 +6,4 @@ To build the app, download the source code and add your API key to file app/src/
 ```sh
 public static String API_KEY = "Your API Key";
 ```
+To get API key, you can visit the [official site](https://pixabay.com/api/docs/)
